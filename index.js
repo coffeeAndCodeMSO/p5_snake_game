@@ -42,7 +42,7 @@ function draw () {
 
   for (let i = 0; i < tail.length; i++) {
     rect(tail[i].x, tail[i].y, h, w);
-    tail[i].y = tail[i].y +
+    tail[i].y = tail[i].y,
     tail[i].x = tail[i].x 
   }
 
